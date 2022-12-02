@@ -5,10 +5,7 @@ public class MainFive {
         FactoryBus bus = new FactoryBus();
         bus.engineCheck();
         bus.applyBrake();
-
-
         System.out.println("----");
-
         NepalYatayat ny = new NepalYatayat();
         ny.name = "Nepal Yatayat";
         ny.engineCheck();

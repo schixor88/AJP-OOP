@@ -27,6 +27,7 @@ public class MainTen {
         JPanel panel1 = new JPanel();
         panel1.setBounds(0,0,250,250);
         panel1.setBackground(Color.red);
+        panel1.add(label);
 
 
         JPanel panel2 = new JPanel();

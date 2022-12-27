@@ -1,8 +1,11 @@
 package module12;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class MainTwelve {
+public class MainTwelve implements ActionListener {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame();
@@ -24,10 +27,19 @@ public class MainTwelve {
         button1.setBounds(200,300,100,30);
         frame.add(button1);
 
+//        button1.addActionListener(this);
+
         JButton button2 = new JButton("Button 2");
         button2.setBounds(20,70,100,30);
         frame.add(button2);
 
+
+    }
+
+
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
 
     }
 }
